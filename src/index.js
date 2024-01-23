@@ -1,4 +1,4 @@
-import { Validator } from "./js/Validator.js";
+import { Settings } from "./js/Settings.js";
 
-const validator = new Validator;
-console.log(validator.validateUsername('U_s_e_r-123'));
+const settings = new Settings;
+console.log(settings.settings);
